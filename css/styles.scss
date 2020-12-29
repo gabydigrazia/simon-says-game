@@ -1,0 +1,95 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    border: 10px solid gray;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    position: relative;
+  }
+
+  .inner-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: #282828;
+    box-shadow: inset 0 0 30px gray;
+    top: 30%;
+    right: 30%;
+    height: 25vh;
+    width: 25vh;
+  }
+
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .light-blue {
+    background: #22a6b3;
+  }
+
+  .light-blue.light {
+    background: #7ed6df;
+  }
+
+  .purple {
+    background: #be2edd;
+  }
+
+  .purple.light {
+    background: #e056fd;
+  }
+
+  .orange {
+    background: #f0932b;
+  }
+
+  .orange.light {
+    background: #ffbe76;
+  }
+
+  .green {
+    background: #6ab04c;
+  }
+
+  .green.light {
+    background: #badc58;
+  }
+
+  .btn-start {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+  }
+
+  .hide {
+    display: none;
+  }
